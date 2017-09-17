@@ -1,17 +1,5 @@
 Package: com.satanya.nonono
 Name: NoNoNo
-Version: 1.0
-Author: SataNya <sata@nya.com>
-Maintainer: SataNya <sata@nya.com>
-Description: Don't let anyone turn on Airplane Mode on you LS.
-Architecture: iphoneos-arm
-Section: LS
-Size: 3496
-Filename: debs//NoNoNo/com.satanya.nonono_1.0-1+debug_iphoneos-arm.deb
-MD5sum: 035a2b1ee4bf8e46cfa026a0b0c081fa
-
-Package: com.satanya.nonono
-Name: NoNoNo
 Version: 1.1
 Author: SataNya <sata@nya.com>
 Maintainer: SataNya <sata@nya.com>
