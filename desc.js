@@ -13,7 +13,7 @@ function loadPackageInfo() {
 		$("#showAddRepoUrl_").show();
 	}
 	var urlSelfParts = window.location.href.split('desc.html?id=');
-	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
+	var form_url = urlSelfParts[0]+"desc/"+urlSelfParts[1];
 	$.ajax({
 		url: form_url,
 		type: "GET",
