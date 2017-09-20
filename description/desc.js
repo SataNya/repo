@@ -1,7 +1,7 @@
 
 function loadPackageInfo() {
 	var urlSelfParts = window.location.href.split('desc.html?id=');
-	var form_url = urlSelfParts[0]+"desc/"+urlSelfParts[1];
+	var form_url = "https://satanya.github.io/repo/description/desc/"+urlSelfParts[1];
 	$.ajax({
 		url: form_url,
 		type: "GET",
@@ -9,7 +9,7 @@ function loadPackageInfo() {
 		crossDomain: true,
 		success: function (returnhtml) {
 			if(decodeResp.desc_long) {
-				$("#desc_long").html(decodeResp.desc_long_);
+				$("#desc_long").html(decodeResp.desc_long);
 				$("#desc_long_").show();
 			}
 			if(decodeResp.compatitle) {
