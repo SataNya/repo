@@ -9,7 +9,7 @@ function loadPackageInfo() {
 		crossDomain: true,
 		success: function (returnhtml) {
 			if(decodeResp.desc_long) {
-				$("#desc_long").html(decodeResp.desc_long);
+				$("#desc_long").html(decodeResp.desc_long_);
 				$("#desc_long_").show();
 			}
 			if(decodeResp.compatitle) {
