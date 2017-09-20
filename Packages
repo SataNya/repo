@@ -9,8 +9,8 @@ Architecture: iphoneos-arm
 Section: LS
 Size: 3488
 Filename: debs//NoNoNo/com.satanya.nonono_1.1-1+debug_iphoneos-arm.deb
-Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.nonono
 MD5Sum: 9e2d5f6cdd434a0b42cf9ef43c174da3
+Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.nonono
 
 
 Package: com.satanya.sliderchanger
