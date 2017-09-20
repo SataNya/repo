@@ -8,7 +8,7 @@ Architecture: iphoneos-arm
 Section: LS
 Size: 3488
 Filename: debs//NoNoNo/com.satanya.nonono_1.1-1+debug_iphoneos-arm.deb
-Depiction: https://satanya.github.io/repo/description/desc.html?id=com.satanya.nonono
+Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.nonono
 
 Package: com.satanya.sliderchanger
 Name: SliderChanger
@@ -22,4 +22,4 @@ Section: LS
 Size: 8478
 Filename: debs//NoNoNo/com.satanya.sliderchanger_1.0-1+debug_iphoneos-arm.deb
 MD5sum: 078e9f45dcc658a2488342013f7db954
-Depiction: https://satanya.github.io/repo/description/desc.html?id=com.satanya.sliderchanger
+Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.sliderchanger
