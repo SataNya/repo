@@ -7,7 +7,6 @@ function loadPackageInfo() {
 		cache: false,
 		crossDomain: true,
 		success: function (returnhtml) {
-			$("#tweakStatusInfo").hide();
 			var decodeResp = eval('('+returnhtml+')');
 			if(decodeResp.name) {
 				document.title = decodeResp.name;
