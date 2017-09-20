@@ -1,12 +1,3 @@
-
-function iOSVersion() {
-	var match = (navigator.appVersion).split('OS ');
-	if (match.length > 1) {
-		return match[1].split(' ')[0].split('_').join('.');
-	}
-	return false;
-}
-
 function loadPackageInfo() {
 	var urlSelfParts = window.location.href.split('desc.html?id=');
 	var form_url = urlSelfParts[0]+"desc/"+urlSelfParts[1];
