@@ -23,26 +23,9 @@ function loadPackageInfo() {
 				$("#name").html(decodeResp.name);
 				$("#name").show();
 			}
-			if(decodeResp.desc_short) {
-				$("#desc_short").html(decodeResp.desc_short);
-				$("#desc_short_").show();
-			}
-			if(decodeResp.warning) {
-				$("#warning").html(decodeResp.warning);
-				$("#warning_").show();
-			}
 			if(decodeResp.desc_long) {
 				$("#desc_long").html(decodeResp.desc_long);
 				$("#desc_long_").show();
-			}
-			if(decodeResp.compatitle) {
-				$("#compatitle").html(decodeResp.compatitle);
-				$("#compatitle_").show();
-				var ios_ver = iOSVersion();
-				if(ios_ver) {
-					$("#your_ios").show();
-					$("#your_ios").html("Current iOS: "+ios_ver);
-				}
 			}
 			if(decodeResp.changelog) {
 				$("#changelog").html(decodeResp.changelog);
@@ -54,7 +37,7 @@ function loadPackageInfo() {
 			}
         },
 		error: function (err) {
-			$("#errorInfo").html("Description unavailable for "+urlSelfParts[1]);
+			$("#errorInfo").html("Description not available for "+urlSelfParts[1]);
 		}
 	});
 }
