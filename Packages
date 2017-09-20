@@ -8,14 +8,12 @@ Architecture: iphoneos-arm
 Section: LS
 Size: 3488
 Filename: debs//NoNoNo/com.satanya.nonono_1.1-1+debug_iphoneos-arm.deb
-Depiction: https://satanya.github.io/repo/debs/NoNoNo/index.html
-MD5sum: 9e2d5f6cdd434a0b42cf9ef43c174da3
-
+Depiction: https://satanya.github.io/repo/description/desc.html?id=com.satanya.nonono
 
 Package: com.satanya.sliderchanger
 Name: SliderChanger
 Version: 1.0
-Depends: firmware (>= 10.0)
+Depends: firmware (>= 9.0), firmware (< 10.0)
 Author: SataNya <sata@nya.com>
 Maintainer: SataNya <sata@nya.com>
 Description: Change your 'Slide to unlock' text.
@@ -24,4 +22,4 @@ Section: LS
 Size: 8478
 Filename: debs//NoNoNo/com.satanya.sliderchanger_1.0-1+debug_iphoneos-arm.deb
 MD5sum: 078e9f45dcc658a2488342013f7db954
-Depiction: https://satanya.github.io/repo/debs/SliderChanger/index.html
+Depiction: https://satanya.github.io/repo/description/desc.html?id=com.satanya.sliderchanger
