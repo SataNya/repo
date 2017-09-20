@@ -16,7 +16,7 @@ Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.nonono
 Package: com.satanya.sliderchanger
 Name: SliderChanger
 Version: 1.0
-Depends: firmware (>= 9.0), firmware (< 10.0)
+Depends: firmware (>= 9.0), firmware (<= 9.3.5)
 Author: SataNya <sata@nya.com>
 Maintainer: SataNya <sata@nya.com>
 Description: Change your 'Slide to unlock' text.
