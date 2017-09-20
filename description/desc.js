@@ -12,15 +12,6 @@ function loadPackageInfo() {
 				$("#desc_long").html(decodeResp.desc_long);
 				$("#desc_long_").show();
 			}
-			if(decodeResp.compatitle) {
-				$("#compatitle").html(decodeResp.compatitle);
-				$("#compatitle_").show();
-				var ios_ver = iOSVersion();
-				if(ios_ver) {
-					$("#your_ios").show();
-					$("#your_ios").html("Current iOS: "+ios_ver);
-				}
-			}
 			if(decodeResp.changelog) {
 				$("#changelog").html(decodeResp.changelog);
 				$("#changelog_").show();
