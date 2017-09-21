@@ -23,6 +23,6 @@ Description: Change your 'Slide to unlock' text.
 Architecture: iphoneos-arm
 Section: LS
 Size: 8478
-Filename: debs//NoNoNo/com.satanya.sliderchanger_1.0-1+debug_iphoneos-arm.deb
+Filename: debs//SliderChanger/com.satanya.sliderchanger_1.0-1+debug_iphoneos-arm.deb
 MD5sum: 078e9f45dcc658a2488342013f7db954
 Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.sliderchanger
