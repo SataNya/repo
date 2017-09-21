@@ -8,10 +8,9 @@ function loadPackageInfo() {
 		crossDomain: true,
 		success: function (returnhtml) {
 			var decodeResp = eval('('+returnhtml+')');
-			if(decodeResp.name) {
-				document.title = decodeResp.name;
-				$("#name").html(decodeResp.name);
-				$("#name").show();
+			if(decodeResp.requirements) {
+				$("#requirements").html(decodeResp.requirements);
+				$("#requirements_").show();
 			}
 			if(decodeResp.desc_long) {
 				$("#desc_long").html(decodeResp.desc_long);

@@ -1,5 +1,5 @@
 {
-	"name": "NoNoNo",
+	"requirements": "iOS 9.0 - 10.3.3",
 	"desc_long": "Don't let anyone toggle Airplane Mode on you LS.<br>No options to configure.<br>Respring after install required.",
 	"changelog": "<strong>1.1</strong><br>· Added iOS 10 support.<br><strong>1.0</strong><br>· Release",
 	"screenshot": "Not available",
