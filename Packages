@@ -4,9 +4,9 @@ Version: 1.1
 Author: SataNya <sata@nya.com>
 Maintainer: SataNya <sata@nya.com>
 Description: Don't let anyone turn on Airplane Mode on you LS.
-Depends: firmware (>= 9.0), firmware (< 11.0)
+Depends: firmware (>= 9.0), firmware (<= 10.2)
 Architecture: iphoneos-arm
-Section: LS
+Section: Tweaks
 Size: 3488
 Filename: debs//NoNoNo/com.satanya.nonono_1.1-1+debug_iphoneos-arm.deb
 MD5Sum: 9e2d5f6cdd434a0b42cf9ef43c174da3
@@ -20,8 +20,22 @@ Author: SataNya <sata@nya.com>
 Maintainer: SataNya <sata@nya.com>
 Description: Change your 'Slide to unlock' text.
 Architecture: iphoneos-arm
-Section: LS
+Section: Tweaks
 Size: 8478
 Filename: debs//SliderChanger/com.satanya.sliderchanger_1.0-1+debug_iphoneos-arm.deb
 MD5sum: 078e9f45dcc658a2488342013f7db954
 Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.sliderchanger
+
+Package: com.satanya.nolsicons
+Name: NoLSIcons
+Version: 1.0
+Depends: firmware (>= 10.0), firmware (<= 10.2)
+Author: SataNya <sata@nya.com>
+Maintainer: SataNya <sata@nya.com>
+Description: Make LS dots and camera icon disappear.
+Architecture: iphoneos-arm
+Section: Tweaks
+Size: 3238
+Filename: debs//NoLSIcons/com.satanya.nolsicons_1.0-1+debug_iphoneos-arm.deb
+MD5sum: 6dc5b025a8a6938e4b0b2ff1f4145f98
+Depiction: https://satanya.github.io/repo/desc.html?id=com.satanya.nolsicons
